@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="info--shop">
+            <h3>Shop Name</h3>
+            <p>142-new street here</p>
+            <p>mahbubnagar,telengana</p>
+            <p>Phone : 789065471</p>
+            <p>some more fields</p>
+        </div>
+        <div class="flex between">
+            <p>Bill No: order_id</p>
+            <p id="date">Date : 17-01-2023 </p>
+        </div>
+        <div class="flex column" style="gap : 20px">
+            <div class="flex around">
+                <p>item Name</p>
+                <p>qty</p>
+                <p>Price</p>
+                <p>Amt</p>
+            </div>
+            <div class="flex around ">
+                <p class="item--name">chicken-breast</p>
+                <p class="qty">2</p>
+                <p class="item">300</p>
+                <p class="item">600</p>
+            </div>
+            <div class="flex">
+                <p class="item--name">Mutton</p>
+                <p class="qty">1</p>
+                <p class="item">800</p>
+                <p class="item">800</p>
+            </div>
+            <div class="flex">
+                <p class="item--name">Fish-Fillets(Salmon)</p>
+                <p class="qty">2</p>
+                <p class="item">500</p>
+                <p class="item">1000</p>
+            </div>
+            <div class="flex between">
+               <p class="item">item : 3</p>
+                <p class="item">qty : 5</p>
+               
+                <p style="flex : .75"> 2400</p> 
+               
+            </div>
+            <div class="flex between">
+                <p>Total Amount :</p>
+                <p>Rs 2400</p>
+            </div>
+            
+        </div>
+        <div style="text-align : center; justify-self : flex-end">
+            Thank You
+        </div>
+    </div>
+    <button id="print">Print</button>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

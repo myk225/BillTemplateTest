@@ -1,0 +1,42 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info--shop{
+    width: fit-content;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    text-align: center;
+}
+.column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+}
+.evenly{
+    justify-content: space-evenly;
+}
+.around{
+    justify-content: space-around;
+}
+.item--name{
+    flex: 1.4;
+    margin: auto;
+    text-wrap: wrap;
+}
+.item{
+    flex: 1;
+    margin: auto;
+}
+.qty{
+    flex: 1;
+    margin: auto;
+}
